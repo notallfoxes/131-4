@@ -107,7 +107,6 @@ qda_mod <- discrim_quad() %>%
 qda_wkflow <- workflow() %>% 
   add_model(qda_mod) %>% 
   add_recipe(titanic_recipe)
-
 ```
 
 How many models, total, across all folds, will you be fitting to the data? To answer, think about how many folds there are, and how many models you'll fit to each fold.
